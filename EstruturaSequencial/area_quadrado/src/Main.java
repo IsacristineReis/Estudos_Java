@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Insira um número inteiro: ");
         int num = sc.nextInt();
 
-        int areaQuadrado = num*2;
+        int areaQuadrado = num*num;
 
         System.out.printf("A area do quadrado é igual a %d%n", areaQuadrado);
 
